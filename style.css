@@ -12,12 +12,32 @@ h1{
 #page-header img{
     max-width: 400px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
  
 #about-me p{
     color: #264653;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
 }
 
-#compositions-about p,ul,li{
+#compositions-about {
     color: #264653;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#compositions-about ul, li{
+    color: #264653;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+    
+#page-header h1,h2,h3{
+    text-align: center;
 }
