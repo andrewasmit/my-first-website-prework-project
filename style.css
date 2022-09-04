@@ -15,5 +15,9 @@ h1{
 }
  
 #about-me p{
-    color: #A1A499;
+    color: #264653;
+}
+
+#compositions-about p,ul,li{
+    color: #264653;
 }
