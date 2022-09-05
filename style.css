@@ -56,7 +56,47 @@ h1{
     height: 80px;
 }
 
+
+.js-section {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.js-section h2{
+    padding: 20px;
+}
+
+ .js-section button{
+    background: #e9edc9;
+    color: #283618;
+    border: 2px solid;
+    border-radius: .5em;
+    padding: 1em 2em;
+    font-size: 1em;
+    cursor:grab;
+    transition: color .2s, border-color .2s, box shadow .2s, transform .2s;
+}
+
+.js-section button:hover {
+    border-color: #bc6c25;
+    color: #fefae0;
+    background-color: #ccd5ae;
+    box-shadow: 0 0.75em 0.75em -0.6em #fcbf49;
+    transform: translateY(-0.25em);
+}
+.js-section button:active{
+    cursor: -moz-grabbing;
+    border: 5px solid white;
+    color: #ccd5ae;
+    background-color: #bc6c25;
+}
+
+.js-section section{
+padding-bottom: 40px;
+}
+
 footer{
+    padding: 40px;
     background-color: #d6ccc2;
     display: flex;
     flex-direction: row;
@@ -76,5 +116,5 @@ footer div{
     padding-left: 10px;
 }
 footer img {
-    max-width: 50px;
+    max-width: 40px;
 }
