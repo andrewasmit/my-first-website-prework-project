@@ -2,7 +2,7 @@ body{
     background:#F2E4C7;
     font-family: 'Libre Baskerville', serif;
 }
-h2,h3{
+h2,h3,h5{
    color: #9C9583; 
 }
 h1{
@@ -38,7 +38,7 @@ h1{
 }
 
     
-#page-header h1,h2,h3{
+#page-header h1,h2,h3,h5{
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ h1{
     margin: 0 auto;
     padding-top: 30px;
 }
-.js-section h2{
+.js-section h2, h5{
     padding: 20px;
 }
 
@@ -94,6 +94,14 @@ h1{
 .js-section section{
 padding-bottom: 40px;
 }
+
+.js-section ul{
+padding-bottom: 40px;
+margin-left:auto;
+margin-right:auto;
+width: 50%;
+}
+
 
 footer{
     padding: 40px;
